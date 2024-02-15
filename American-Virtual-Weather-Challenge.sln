@@ -1,0 +1,49 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34309.116
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AmericanVirtual.Weather.Challenge.WebAPI", ".\AmericanVirtual.Weather.Challenge.WebAPI\AmericanVirtual.Weather.Challenge.WebAPI.csproj", "{EFC37962-C843-4BF3-8989-49C75E8B6B3B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AmericanVirtual.Weather.Challenge.CoreAPI", ".\AmericanVirtual.Weather.Challenge.CoreAPI\AmericanVirtual.Weather.Challenge.CoreAPI.csproj", "{47AC1969-8CEF-455A-A696-D22AA6868DA4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AmericanVirtual.Weather.Challenge.Database", ".\AmericanVirtual.Weather.Challenge.Database\AmericanVirtual.Weather.Challenge.Database.csproj", "{FA0C43A5-444C-4009-BD33-17D3A184B67F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AmericanVirtual.Weather.Challenge.Repository", ".\AmericanVirtual.Weather.Challenge.Repository\AmericanVirtual.Weather.Challenge.Repository.csproj", "{D1A3D51F-F24D-44A4-ABCE-8D732CDBD703}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AmericanVirtual.Weather.Challenge.Common", ".\AmericanVirtual.Weather.Challenge.Common\AmericanVirtual.Weather.Challenge.Common.csproj", "{2A981A37-B754-4C7A-B2A7-CD0D4832A43D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EFC37962-C843-4BF3-8989-49C75E8B6B3B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EFC37962-C843-4BF3-8989-49C75E8B6B3B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EFC37962-C843-4BF3-8989-49C75E8B6B3B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EFC37962-C843-4BF3-8989-49C75E8B6B3B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{47AC1969-8CEF-455A-A696-D22AA6868DA4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{47AC1969-8CEF-455A-A696-D22AA6868DA4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{47AC1969-8CEF-455A-A696-D22AA6868DA4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{47AC1969-8CEF-455A-A696-D22AA6868DA4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FA0C43A5-444C-4009-BD33-17D3A184B67F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FA0C43A5-444C-4009-BD33-17D3A184B67F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FA0C43A5-444C-4009-BD33-17D3A184B67F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FA0C43A5-444C-4009-BD33-17D3A184B67F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D1A3D51F-F24D-44A4-ABCE-8D732CDBD703}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D1A3D51F-F24D-44A4-ABCE-8D732CDBD703}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D1A3D51F-F24D-44A4-ABCE-8D732CDBD703}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D1A3D51F-F24D-44A4-ABCE-8D732CDBD703}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2A981A37-B754-4C7A-B2A7-CD0D4832A43D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2A981A37-B754-4C7A-B2A7-CD0D4832A43D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2A981A37-B754-4C7A-B2A7-CD0D4832A43D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2A981A37-B754-4C7A-B2A7-CD0D4832A43D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {95AB002A-D136-4908-AB02-887A123E587F}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,9 @@
+﻿Scaffold-DbContext "Server=(localdb)\mssqllocaldb;Database=FinancialSwitch;Trusted_Connection=True;User ID=admin;Password=147258" Microsoft.EntityFrameworkCore.SqlServer -OutputDir Models -Tables "ZIPCodes","Acquirers","Locations","CardBrands","NetworkEndpoints","Devices","DevicesOperations","CryptographicKeyGroups","Currencies","DeviceOwners","TerminalMasterKeyComponents","Countries","Fees","NetworkEndpoints","Provinces","Operations","Localities"
+Add-Migration xxx -Context AmericaVirtualContext -verbose
+Remove-Migration -Context AmericaVirtualContext -> esto funciona si la migration no esta aplicada en la base. Primero removerla de la base si esta aplicada.
+Update-Database -Context AmericaVirtualContext
+Update-database -context AmericaVirtualContext 20200125175359_Initial_Migration -> volves a la migration anterior si esta ejecutada en la base
+Script-Migration -From 20200513020058_Change_AuditDate_To_DateTime -To 20201224150727_observationHistory
+Script-Migration -Context AmericaVirtualContext        -> (TE DA EL SCRIPT PARA TIRAR EN EL SQL DE LA ULTIMA MIGRACION MIGRACION)
+si falla para obtener la info del error:
+-verbose
