@@ -19,7 +19,7 @@ Log.Logger = new LoggerConfiguration().Enrich.FromLogContext()
      .Enrich.WithProperty("Environment", environment)
      .ReadFrom.Configuration(config)
      .CreateLogger();
-
+builder.Host.UseSerilog();
 
 var key = Encoding.ASCII.GetBytes(builder.Configuration.GetSection("TokenSecret").Value);
 string[] allowedOrigins = builder.Configuration.GetSection("AllowedOrigins").Value.Split(";");
