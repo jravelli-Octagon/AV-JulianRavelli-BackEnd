@@ -19,7 +19,7 @@ namespace AmericanVirtual.Weather.Challenge.WebAPI.Controllers
             _weatherService = weatherService;
         }
 
-        [AllowAnonymous]
+
         [HttpGet("getBy")]
         [ProducesResponseType(StatusCodes.Status200OK)]
         [ProducesResponseType(StatusCodes.Status400BadRequest)]
